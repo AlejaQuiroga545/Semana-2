@@ -109,7 +109,7 @@ while True:
     try:
         number = int(input(f"\nTienes {intentos} intentos, adivina el número (del 1 a 10) 💡: "))
         if number > 10 or number < 0:
-           print("Por favor ingresa un número entre 0 y 10")
+           print("Por favor ingresa un número entre 1 y 10")
            continue
 
         if number > numeroAlt:
