@@ -1,5 +1,4 @@
-# Ejercicios de Estructuras Condicionales y Bucles en Python
-
+# Ejercicios de Bucles y Condicionales en Python
 Este repositorio contiene una serie de ejercicios resueltos en Python. El objetivo es practicar el uso de **estructuras condicionales**, **bucles** y otras estructuras de programación en Python.
 
 ### Ejercicio 1: Clasificador de Números
