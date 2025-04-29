@@ -64,7 +64,7 @@ while True:
 
 for i in range (1, 11):
     resultado = numeroTab * i
-    print (f"{numeroTab} * {i} = {resultado:.0f}")
+    print (f"{numeroTab} * {i} = {resultado}")
 time.sleep(2)
 ```
 
