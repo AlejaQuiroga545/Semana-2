@@ -3,7 +3,6 @@
 Escribe un programa que pida al usuario un número entero y determine si es positivo, negativo o cero.
 
 ```python
-import random
 import time
 
 # Ejercicio 1 | Clasificador de números
@@ -98,6 +97,8 @@ time.sleep(2)
 Crea un programa que genere un número aleatorio entre 1 y 10, y le pida al usuario que lo adivine. El programa debe indicar si el número ingresado es mayor, menor o correcto. El usuario tiene hasta 3 intentos.
 
 ```python
+import random
+
 # Ejercicio 5 | Adivina el número
 
 numeroAlt = random.randint(1, 10)
@@ -107,6 +108,9 @@ intentos = 3
 while True:
     try:
         number = int(input(f"\nTienes {intentos} intentos, adivina el número (del 1 a 10) 💡: "))
+        if number > 10 or number < 0:
+           print("Por favor ingresa un número entre 0 y 10")
+           continue
 
         if number > numeroAlt:
             print ("El número es menor 👀")
